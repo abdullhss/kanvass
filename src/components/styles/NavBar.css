@@ -1,0 +1,21 @@
+#AppBar{
+    background-color: #FFF;
+    z-index: 1;
+    box-shadow: 0 0 0 ;
+}
+#NavBarContaner{
+    width: 98vw;
+    height: 10vh;
+}
+#Toolbar{
+    padding: 0% 6% 0% 5%;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+}
+@media (max-width: 767.98px) {
+    #Toolbar{
+        padding: 0% 0% 0% 5%;
+    }    
+}
